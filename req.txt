@@ -5,3 +5,13 @@ django-admin startproject mysite .
 python manage.py startapp products
 python manage.py migrate
 python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+github run
+python -m venv myvenv
+myvenv\scripts\activate
+pip install django
+python manage.py runserver
