@@ -1,0 +1,7 @@
+python -m venv myvenv
+myvenv\scripts\activate
+pip install django
+django-admin startproject mysite .
+python manage.py startapp products
+python manage.py migrate
+python manage.py runserver
