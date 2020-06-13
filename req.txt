@@ -5,6 +5,8 @@ django-admin startproject mysite .
 python manage.py startapp products
 python manage.py migrate
 python manage.py runserver
+
+products->model.py -> class Product
 python manage.py makemigrations
 python manage.py migrate
 

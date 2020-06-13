@@ -12,4 +12,4 @@ def main(request):
 
 
 def index(request):
-    return HttpResponse("Hello from index view")
+    return render(request,"product/index.html")
